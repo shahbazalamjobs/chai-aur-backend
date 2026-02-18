@@ -13,7 +13,7 @@ function App() {
       .catch((error) => {
         console.log(error)
       })
-  }, [])  // runs only once
+  }, [])  
 
   return (
     <div>
@@ -30,4 +30,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
